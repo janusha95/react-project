@@ -1,0 +1,94 @@
+/* This Css files include the Css for main of index.html page.*/
+:root{
+    --accent-blu :rgb(12, 34, 54);
+    --accent-bro: #753D16;
+    --white: #fffdfd;
+    --red: #cf2f2f;
+    --light-blue: #edf3ef;
+    --gray: #dbe0e6;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header CSS */
+.navigation-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding : 0.1em 1em;
+  margin: 0em;
+  background-color: #232F3E;
+  
+}
+
+/* Css for the navigation bar */
+.navigation-box{
+  display: flex;
+}
+.nav-section{
+    width:fit-content;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    margin:auto 2em;
+    border-radius: 0.5em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 25fr 25fr 25fr 25fr 25fr;
+    grid-gap: 1em;
+}
+.nav-element {
+    width: 100%;
+    padding: 0.25em 0.5em;
+    color: var(--white);
+    font-size: 1.2em;
+}
+.nav-option{
+    border-radius: 1.5em;
+    background-color:#EDEDED ;
+    opacity: 66%;
+    color: black;
+}
+.logo{
+  width: 10em;
+}
+  /* Footer Css */
+.container-footer{
+  background-color:#37475A;
+  display: grid;
+  grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+  /*padding: 1em; */
+  align-items: flex-start;
+  margin-bottom: 0em;
+  padding: 0em 2em;
+  color:var(--white);
+}
+.footer-logo{
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
+}
+.footer-elements{
+  margin: 1em;
+  color:var(--white);
+}
+footer a{
+  text-decoration: none;
+  color:var(--white);
+  
+}
+.social-link{
+  width: 2em;
+}
+.bottom-footer{
+  display: flex;
+  padding:0em 2em;
+  background-color:  #232F3E;
+  justify-content: space-between;
+  margin:0em;
+  color:var(--white);
+}
+.item-inline{
+  display: inline;  
+}
+.footer-heading{
+  color:var(--white);
+}

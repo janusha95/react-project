@@ -1,0 +1,67 @@
+/* This Css files include the Css for main of index.html page.*/
+:root{
+    --accent-blu :#232F3E;
+    --accent-bro: #753D16;
+    --white: #fffdfd;
+    --red: #cf2f2f;
+    --light-blue: #edf3ef;
+    --gray: #dbe0e6;
+    --yellow:  rgb(247, 151, 27);
+}
+
+  .title{
+      font-size: 2.5em;
+      text-align: left;
+      margin-left: 0.5em;
+  }
+  .star-rating{
+      width: 2em;
+      height: 0.5em;
+  }
+.product-card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  margin: 2em 4em;
+  font-size: 1em;
+ 
+}
+
+.frames-card{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ grid-gap:1em;
+ margin: 2em 2em;
+}
+
+.frame-card{
+text-align: center;
+transition: all 1s;
+}
+
+.product-card img{
+ height: 300px;
+}
+.detailed-card:hover{
+ box-shadow: 0px 0px 14px 3px rgba(181,177,177,1);
+ border-radius: 5px;
+}
+
+.display-card{
+ display: flex;
+ justify-content: space-between;
+ margin: 0em 1em;
+}
+
+.price{
+ color: rgb(175, 23, 12);
+}
+
+.shoppn-cart{
+ width: auto;
+ text-align: right;
+ background-color: rgb(82, 182, 240);
+}
+.item-inline{
+  
+}
